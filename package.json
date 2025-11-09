@@ -1,18 +1,39 @@
 {
   
-  "name": "src",
+  "name": "faker_demo",
+  
   "private": true,
+  
   "version": "0.0.0",
+  
   "type": "module",
+  
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
+  
+    
+  "dev": "vite",
+  
+    
+  "build": "tsc && vite build",
+  
+    
+  "preview": "vite preview",
+  
+    
+  "deploy": "npm run build && gh-pages -d dist"
+  
   },
+  
   "devDependencies": {
-    "typescript": "~5.9.3",
-    "vite": "^7.1.7"
+  
+    
+  "gh-pages": "^6.3.0",
+  
+    
+  "typescript": "~5.9.3",
+  
+    
+  "vite": "^7.1.7"
+  
   }
 }
- 
